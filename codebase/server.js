@@ -14,7 +14,7 @@ var env = require('./env.json');
 var jwt = require('jsonwebtoken');
 
 var configModel = require('./models/config.model');
-process.env.SECRETKEY="HeMan';
+process.env.SECRETKEY="HeMan";
 
 exports.config = function(){
     var node_env = process.env.NODE_ENV || 'development';
