@@ -11,8 +11,10 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var encrypt = require('mongoose-encryption');
 var env = require('./env.json');
+var jwt = require('jsonwebtoken');
 
 var configModel = require('./models/config.model');
+process.env.SECRETKEY="HeMan';
 
 exports.config = function(){
     var node_env = process.env.NODE_ENV || 'development';
@@ -23,7 +25,7 @@ var app = express();
 var port = process.env.PORT || 8000;
 var router = express.Router();
 // connect to database
-mongoose.connect('mongodb://mongodb/fundera');
+mongoose.connect('mongodb://mongodb/testdatabase');
 var db = mongoose.connection;
 
 app.use(bodyParser.json()); // support json encoded bodies
