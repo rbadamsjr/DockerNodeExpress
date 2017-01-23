@@ -1,0 +1,22 @@
+{
+  "name": "breakout-fundera",
+  "version": "1.0.0",
+  "description": "Breakoutfinance implementation of the Fundera.com api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies":{
+    "express":"*",
+    "body-parser":"*",
+    "mongoose":"*",
+    "mongoose-encryption":"*",
+    "jquery":"*"
+  },
+  "keywords": [
+    "fundera"
+  ],
+  "author": "roland.adams@smartideasllc.net",
+  "license": "ISC"
+}
