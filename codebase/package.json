@@ -12,7 +12,8 @@
     "body-parser":"*",
     "mongoose":"*",
     "mongoose-encryption":"*",
-    "jquery":"*"
+    "jquery":"*",
+    "jsonwebtoken":"*"
   },
   "keywords": [
     "fundera"
