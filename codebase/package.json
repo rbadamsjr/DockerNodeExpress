@@ -13,7 +13,8 @@
     "mongoose":"*",
     "mongoose-encryption":"*",
     "jquery":"*",
-    "jsonwebtoken":"*"
+    "jsonwebtoken":"*",
+    "pm2":"*"
   },
   "keywords": [
     "fundera"
